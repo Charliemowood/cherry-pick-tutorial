@@ -15,11 +15,11 @@ Commit changes, make a PR and merge to master. Note that your team may have a di
 
 #### One commit
 Run the following command in Terminal:
-1. `git cherry-pick _hash_of_desired_commit_`
+1. > git cherry-pick _hash_of_desired_commit_
 
 #### Multiple commit
 This is slight more complex you need to specify a range. 
-1. `git cherry-pick _hash_of_commit_before_your_first_desired_commit_.._your_last_desired_commit_`
+1. > git cherry-pick _hash_of_commit_before_your_first_desired_commit_.._your_last_desired_commit_
 
 #### Post cherry-pick
 
