@@ -17,11 +17,11 @@ Commit changes, make a PR and merge to master. Note that your team may have a di
 Run the following command in Terminal:
 > git cherry-pick _hash_of_desired_commit_
 
-#### Multiple commit
+#### Multiple commits
 This is slight more complex you need to specify a range. 
 > git cherry-pick _hash_of_commit_before_your_first_desired_commit_.._your_last_desired_commit_
 
-#### Post cherry-pick
+#### After cherry-pick
 
 1. At this point, you might have some conflict to deal with, in which run `git status`, find out if there any merge conflict choose which version you would like to keep.
 2. You will also need to do `git add` and `git commit`. It might also be necessary to run: `git cherry-pick --continue`.
