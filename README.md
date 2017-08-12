@@ -2,7 +2,7 @@ The aim of this tutorial is to help understand the *git cherry-pick* command.
 
 ### Introduction
 
-The _cherry-pick_ command can be used when you are using different versions of documentation and/or software. In order to help you imagine a use case for the command, here is a real example. Say that you have just released version 1.2 of a piece of software and you patch a bug but this bug is also present in 1.1. You can cherry-pick the commits you made 1.2 and put them also on 1.1 branch. 
+The _cherry-pick_ command can be used when you are using different versions of documentation and/or software. In order to help you imagine a use case for the command, here is a real example. Say that you have just released version 1.2 of a piece of software and you patch a bug but this bug is also present in 1.1. You can cherry-pick the commits you made in 1.2 and put them also on 1.1 branch. 
 
 ### Typical workflow
 
